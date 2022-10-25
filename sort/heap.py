@@ -1,6 +1,7 @@
 a = input().split(' ')
 a = [0] + list(map(int, a))
 
+
 def print_val(a):
     for i in range(1, len(a)):
         print(a[i], end = ' ')
